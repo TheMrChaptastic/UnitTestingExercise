@@ -104,6 +104,7 @@ namespace UnitTestingExercise.Tests
                 Assert.True(lowercaseActual);
                 Assert.True(uppercaseActual);
             }
+            Assert.False(testing.IsItALetter('1'));
         }
     }
 }
